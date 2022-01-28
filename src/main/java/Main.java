@@ -10,7 +10,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        
         movies.add("Star Wars");
         movies.add("Avengers");
 
@@ -33,7 +32,6 @@ public class Main {
     public static Handler characterHandler = ctx -> {
 
         // TO-DO
-        
         
     };
 
