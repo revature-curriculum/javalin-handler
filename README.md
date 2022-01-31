@@ -11,9 +11,6 @@ In this lab we will cover how to use handlers within your Javalin web applicatio
 ---
 ### Sample Output
 ```
-Tony Stark
-Jinx
-Steven Stone
-Tadashi Hamada
+[Tony Stark, Jinx, Steven Stone, Tadashi Hamada]
 ```
 ---
