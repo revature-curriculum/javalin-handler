@@ -1,4 +1,4 @@
-## Javalin Handler Challenge
+## Javalin Handler
 ---
 ### Description
 In this lab we will cover how to use handlers within your Javalin web application.
