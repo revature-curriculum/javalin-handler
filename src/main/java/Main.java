@@ -6,7 +6,7 @@ public class Main {
 
     static ArrayList<String> movies = new ArrayList<>();
 
-    // TO-DO
+    static ArrayList<String> characters = new ArrayList<>();
 
     public static void main(String[] args) {
 
@@ -18,6 +18,8 @@ public class Main {
         app.get("/", ctx -> ctx.result("Hello World!"));
 
         app.get("/movies", movieHandler);
+
+        app.get("/favcharacters", characterHandler);
 
     }
 
@@ -31,7 +33,12 @@ public class Main {
 
     public static Handler characterHandler = ctx -> {
 
-        // TO-DO
+        characters.add("Iron Man");
+        characters.add("Jinx");
+        characters.add("Hagrid");
+        characters.add("Conan");
+
+        ctx.result(characters.toString());
         
     };
 
